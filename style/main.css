@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.nothidden {
+    display: inline;
+}
+
+#skillInfo {
+    z-index: 1;
+    position: fixed;
+    left: 5px;
+    top: 130px;
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+    width: 200px;
+}
+
+#UIName {
+    font-weight: bold;
+    color: white;
+}
+
+#controls {
+    z-index: 1;
+    position: fixed;
+    left: 5px;
+    top: 20px;
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+}
+
+#canvas {
+    background-color: #fff;
+    position: relative;
+    left: 200px;
+}

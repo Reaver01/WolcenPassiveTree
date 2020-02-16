@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Wolcen Planner</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
+
+<body onload="init();">
+    <div id="canvasContainer">
+        <canvas id="canvas" width="1500px" height="1500px"></canvas>
+    </div>
+    <div id="controls">
+        <span onclick="RotateA(-1)">&#171;&#171;&#171;</span> | Ring 0 | <span onclick="RotateA(1)">&#187;&#187;&#187;</span>
+        <br>
+        <span onclick="RotateB(-1)">&#171;&#171;&#171;</span> | Ring 1 | <span onclick="RotateB(1)">&#187;&#187;&#187;</span>
+        <br>
+        <span onclick="RotateC(-1)">&#171;&#171;&#171;</span> | Ring 2 | <span onclick="RotateC(1)">&#187;&#187;&#187;</span>
+    </div>
+    <div id="skillInfo">
+        <span id="UIName"></span>
+        <br><br>
+        <span id="MagicEffects"></span>
+        <span id="GameplayDesc"></span>
+        <br>
+    </div>
+</body>
+
+<script type="text/javascript" src="js/treedata.js"></script>
+<script type="text/javascript" src="js/localization.js"></script>
+<script type="text/javascript" src="js/url.js"></script>
+<script type="text/javascript" src="js/canvas.js"></script>
+
+
+</html>
